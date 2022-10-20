@@ -19,3 +19,12 @@ Completed Binary Tree : All the levels of the tree should be completely filled, 
 Perfect Binary Tree   : All the leaf nodes should be present at the same level.
 Balanced Binary Tree  : The height of the Binary Tree at max should be log(n), where n is the number of nodes.
 Degenerate Tree       : Every node can have atmost 1 child. Ex: skew tree etc.
+
+There are two types of Traversals, they are BFS and DFS.
+
+There are three types of DFS (Depth First Traversal) Traversals:
+    - PreOrder Traversal: (Root + Left + Right)
+    - InOrder Traversal: (Left + Root + Right)
+    - PostOrder Traversal: (Left + Right + Root)
+
+In BFS (Breadth First Traversal) Traversal, we use Level Order Traversal. Which goes level by level.
