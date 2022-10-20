@@ -1,0 +1,30 @@
+Introduction to Binary Tree
+
+Binary Tree:  Inside a guy, it can have at most 2 guys or node can have at most 2 nodes.
+Leaf Node: The nodes which do not have any children.
+Root Node: The top node where the path starts.
+Ancestors: From the current node's parent to till the root node are the ancestors of the current node.
+SubTree: All the nodes below the current node forms the sub tree.
+
+There are 5 types of Binary Trees: 
+    - Full Binary Tree
+    - Complete Binary Tree
+    - Perfect Binary Tree
+    - Balanced Binary Tree
+    - Degenerate Tree
+
+Full Binary Tree      : A node can have either 0 or 2 children.
+Completed Binary Tree : All the levels of the tree should be completely filled, except last level and the last level has all 
+                        nodes on the left to be filled completely.
+Perfect Binary Tree   : All the leaf nodes should be present at the same level.
+Balanced Binary Tree  : The height of the Binary Tree at max should be log(n), where n is the number of nodes.
+Degenerate Tree       : Every node can have atmost 1 child. Ex: skew tree etc.
+
+There are two types of Traversals, they are BFS and DFS.
+
+There are three types of DFS (Depth First Traversal) Traversals:
+    - PreOrder Traversal: (Root + Left + Right)
+    - InOrder Traversal: (Left + Root + Right)
+    - PostOrder Traversal: (Left + Right + Root)
+
+In BFS (Breadth First Traversal) Traversal, we use Level Order Traversal. Which goes level by level.
