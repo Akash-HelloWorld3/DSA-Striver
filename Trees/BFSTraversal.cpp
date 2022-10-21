@@ -17,6 +17,9 @@ Node* newNode(int val){
     return node;
 }
 
+// Time Complexity: O(N) because we are visiting every node.
+// Space Complexity: O(N) because in worst case at max we will be storing N nodes in a queue at a time.
+
 void levelOrderTraversal(Node* root){
     if(root==NULL)
         return;

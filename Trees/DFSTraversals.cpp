@@ -14,6 +14,10 @@ Node* newNode(int val){
     return node;
 }
 
+// Time Complexity: O(N) because we are visiting every node.
+// Space Complexity: O(N) (Auxilary stack space will be height of the binary tree) because in worst case if it is a skew tree
+//                         the auxilary stack space will be O(N) due to N nodes.
+
 void inorderTraversal(Node* root)
 {
     if(root==NULL)
@@ -23,6 +27,10 @@ void inorderTraversal(Node* root)
     inorderTraversal(root->right);
 }
 
+// Time Complexity: O(N) because we are visiting every node.
+// Space Complexity: O(N) (Auxilary stack space will be height of the binary tree) because in worst case if it is a skew tree
+//                         the auxilary stack space will be O(N) due to N nodes.
+
 void preorderTraversal(Node* root)
 {
     if(root==NULL)
@@ -31,6 +39,10 @@ void preorderTraversal(Node* root)
     preorderTraversal(root->left);
     preorderTraversal(root->right);
 }
+
+// Time Complexity: O(N) because we are visiting every node.
+// Space Complexity: O(N) (Auxilary stack space will be height of the binary tree) because in worst case if it is a skew tree
+//                         the auxilary stack space will be O(N) due to N nodes.
 
 void postorderTraversal(Node* root)
 {
