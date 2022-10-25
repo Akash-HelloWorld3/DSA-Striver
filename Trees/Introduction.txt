@@ -41,3 +41,9 @@ Ans: Yes
 
 When a Inorder + any traversal is given we can contruct unique binary tree, because it tells us what is on the left and right. 
 
+Binary Search Tree: In binary tree it does not matter where the node is placed. But in binary search tree it follows 
+                    Left < Node < Right. The Entire left and right subtree will be binary search tree or all the subtrees are
+                    binary search tree. In general we don't have duplicates, but if we are intending to keep duplicates then
+                    we will modify the condition to Left <= Node < Right, wehich is one of the approach we can use or we can
+                    keep a frequency counter for all the nodes to know the occurences. The search of a Node and height of a
+                    BST is Log2N.
