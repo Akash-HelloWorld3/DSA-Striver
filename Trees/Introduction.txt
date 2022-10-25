@@ -5,6 +5,7 @@ Leaf Node: The nodes which do not have any children.
 Root Node: The top node where the path starts.
 Ancestors: From the current node's parent to till the root node are the ancestors of the current node.
 SubTree: All the nodes below the current node forms the sub tree.
+Maximum height of a Binary Tree: pow(2,H)-1, where H is the height of the Binary Tree.
 
 There are 5 types of Binary Trees: 
     - Full Binary Tree
@@ -28,3 +29,15 @@ There are three types of DFS (Depth First Traversal) Traversals:
     - PostOrder Traversal: (Left + Right + Root)
 
 In BFS (Breadth First Traversal) Traversal, we use Level Order Traversal. Which goes level by level.
+
+Can you contruct a unique Binary Tree from Postorder & Preorder?
+Ans: No, because we can contruct multiple binary trees.
+
+Can you contruct a unique Binary Tree from Inorder & Preorder?
+Ans: Yes
+
+Can you contruct a unique Binary Tree from Inorder & Preorder?
+Ans: Yes
+
+When a Inorder + any traversal is given we can contruct unique binary tree, because it tells us what is on the left and right. 
+
